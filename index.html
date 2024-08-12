@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Timmana&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body>    
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
@@ -23,17 +23,23 @@
                 <img src="images/logo.png" alt="Logo Énergie Verte" height="80">
             </a>
             <div class="display-3 fw-bold fs-3 text-danger">(COTTECH)</div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button class="navbar-toggler" type="button" data-nav-toggler="" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!--  <button class="nav-open-btn" aria-label="open menu" data-nav-toggler="">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>    
+                <span class="line line-3"></span>
+              </button> -->
+            
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about"><p class="text-white competence-box bg-success rounded">À propos</p> </a></li>
-                    <li class="nav-item"><a class="nav-link" href="#problems"><p class="text-white competence-box bg-success rounded">Problèmes</p></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#solutions"><p class="text-white competence-box bg-success rounded">Solutions</p></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#competences"><p class="text-white competence-box bg-success rounded">Nos Compétences</p></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact"><p class="text-white competence-box bg-success rounded">Contact</p></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about"><p class="text-white competence-box bg-danger rounded px-2">PRESENTATION</p> </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services"><p class="text-white competence-box bg-danger rounded px-2">SERVICES</p></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#competences"><p class="text-white competence-box bg-danger rounded px-2">NOS COMPETENCES</p></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#realisations"><p class="text-white competence-box bg-danger rounded px-2">REALISATIONS</p></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><p class="text-white competence-box bg-danger rounded px-2">Contact</p></a></li>
                 </ul>
             </div>
         </div>
@@ -112,9 +118,9 @@
                 </div>
             </div>
 
-            <div  class="mt-4 card shadow-sm">
+            <div  class="mt-4 card-body shadow-sm">
                 <h4 class="entetecottech text-center">CONGO TELECOMMUNICATION TECONOLOGY </h4>
-                   <p class="fs-5 text-start">vise l’excellence, ce qui se traduit par le degré des  détails qui transparaissent
+                   <p class="card-text fs-5 text-start mx-3">vise l’excellence, ce qui se traduit par le degré des  détails qui transparaissent
                         dans les documents techniques qu’il produit , et dans le point d’honneur qu’il met à tenir ses délais .
                        Conscient que la réussite d’un projet réside dans la qualité
                         de sa préparation, COTTECH a pour vocation de vous aider  à préparer techniquement et financièrement
@@ -123,7 +129,7 @@
                    .</p>
            </div >
            
-            <p class="text-center mt-4 bg-light fs-5">Dans l’exécution de votre projet,  COTTECH 
+            <p class="text-center mt-4 bg-light fs-5 mx-3">Dans l’exécution de votre projet,  COTTECH 
                 vous proposera son expertise pour le suivi et le contrôle du
                  projet suivant les règles de l’état de l’art en la matière.
                 Avec *COTTECH*, vous avez la garantie d'un partenaire fiable, capable de vous accompagner
@@ -362,12 +368,12 @@
 
     </section>
 
-    <!-- Problems Section -->
-    <section id="problems" class="bg-light py-5">
+    <!-- realisations -->
+    <section id="realisations" class="bg-light py-5">
         <div class="container">
-            <h2 class="text-center mb-4 text-success : texte vert ;" >REALISATIONS</h2>
+            <h2 class="text-center mb-4 text-success : texte vert" >REALISATIONS</h2>
             <div class="row espaceentrediv background4">
-                <h4 class="couleurviolet">REFERENCES  (REALISATIONS -1)</h4>
+                <h4 class="couleurviolet">REFERENCES  (REALISATION -1)</h4>
                 <h3 class="text-danger"> Conception technique de la sous-station CARRILU et la ligne 120kv✅</h3>
             
                     
@@ -376,14 +382,14 @@
                         <p>🔑Maître d'ouvrage: SNEL Contractant: CTEG</p> 
                         <p>🏙Place: Kolwezi RDC</p>
                         <p>🕔Durée :2019.5-2020.1</p>
-                        <p> <span class="couleurbleu"> contenu de conception:</span> LUALABA-CARRILU 120KV 13,3 km de ligne
+                        <p> <span class="couleurbleu">CONTENU DE CONCEPTION:</span> LUALABA-CARRILU 120KV 13,3 km de ligne
                         à simple terne; CARRILU Sous-station 2*20MVA, travée départ 120kv
                         à double terne; 10 travées de départ 10kv; condensateur 4* 25Mvar; système
                         de protection de contrôle, AC et DC, communication et conception de fondations civiles.
                         </p></h4>
                     </div>
                     <div class="row mt-6">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="card shadow-sm">
                                 <img src="images/ref1.png" class="card-img-top" alt="Énergie Solaire">
                                 <div class="card-body">
@@ -392,9 +398,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="card shadow-sm">
-                                <img src="images/ref2.jpg" class="card-img-top" alt="Énergie Éolienne">
+                                <img src="images/ref2.png" class="card-img-top" alt="Énergie Éolienne">
                                 <div class="card-body">
                                     <h5 class="card-title">Sous-station CARRILU</h5>
                                     
@@ -405,56 +411,176 @@
                     </div>
         
             </div>
+<!--REALISATION 2-->
+<div class="row espaceentrediv background4">
+    <h4 class="couleurviolet">REFERENCES  (REALISATION -2)</h4>
+    <h3 class="text-danger"> Conception technique de la sous-station GCK et la ligne 120kv✅</h3>
+
+        
+        <div class="position">
+            <h4 class="section-title text-muted2">
+            <p>🔑Maître d'ouvrage: SNEL Contractant:XIAN ELECTRIC ENGINEERING.</p> 
+            <p>🏙Place: Likasi RDC</p>
+            <p>🕔Durée: 2019.12-2021.1</p>
+            <p> <span class="couleurbleu"> CONTENU DE CONCEPTION:</span>construction d’une nouvelle 32MVA 120/10kv
+                 sous-station, 1 travée d’entrée 120kv, 2 travées de transformateur, 6 travées de départ 10kv; système de
+                  protection de contrôle, AC et DC, communication et conception de fondations civiles;
+                 extension de sous-station RC , 2 travées de départ, un nouveau travée de transformateur 180MVA 220/120/10kv.
+            </p></h4>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <img src="images/ref3.png" class="card-img-top" alt="Énergie Solaire">
+                    <div class="card-body">
+                        <h5 class="card-title">Ligne GCK</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <img src="images/ref4.png" class="card-img-top" alt="Énergie Éolienne">
+                    <div class="card-body">
+                        <h5 class="card-title">Repartiteur Centre (RC) LIKASI</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+</div>
+<!--fin realisation 2-->
+<!--REALISATION 3-->
+<div class="row espaceentrediv background4">
+    <h4 class="couleurviolet">REFERENCES  (REALISATION -3)</h4>
+    <h3 class="text-danger"> Conception technique de la nouvelle ligne MICAS 120kv✅</h3>
+        <div class="position">
+            <h4 class="section-title text-muted2">
+            <p>🔑Maître d'ouvrage: SNEL Contractant:JTPCC.</p> 
+            <p>🏙Place: Likasi RDC</p>
+            <p>🕔Durée: 2021.6-2022.1</p>
+            <p> <span class="couleurbleu">CONTENU DE CONCEPTION</span> de 12km de ligne de transmission 120kv à simple terne.
+            </p></h4>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <img src="images/ref5.png" class="card-img-top" alt="Énergie Solaire">
+                    <div class="card-body">
+                        <h5 class="card-title">Ligne GCK</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <img src="images/ref6.png" class="card-img-top" alt="Énergie Éolienne">
+                    <div class="card-body">
+                        <h5 class="card-title">Repartiteur Centre (RC) LIKASI</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+</div>
+<!--fin realisation 3-->
+<!--REALISATION 4-->
+<div class="row espaceentrediv background4">
+    <h4 class="couleurviolet">REFERENCES  (REALISATION -4)</h4>
+    <h3 class="text-danger">Conception technique d’une Nouvelle Sous-station MJM 120kv ✅</h3>
+        <div class="position">
+            <h4 class="section-title text-muted2">
+            <p>🔑Maître d'ouvrage: SNEL Contractant:JTPCC.</p> 
+            <p>🏙Place: Kolwezi RDC</p>
+            <p>🕔Durée: 2021.10 - présent</p>
+            <p> <span class="couleurbleu">CONTENU DE CONCEPTION : </span>nouvelle sous-station 120kV, et 1km de ligne de transmission 120kv
+            </p></h4>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <img src="images/ref7.png" class="card-img-top" alt="Énergie Solaire">
+                    <div class="card-body">
+                        <h5 class="card-title">Realisation de la Sous-Station MJM</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <img src="images/ref8.png" class="card-img-top" alt="Énergie Éolienne">
+                    <div class="card-body">
+                        <h5 class="card-title">Sous-Station MJM</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+</div>
+<!--fin realisation 4-->
+<!--REALISATION 5-->
+<div class="row espaceentrediv background4">
+    <h4 class="couleurviolet">REFERENCES  (REALISATION -5)</h4>
+    <h3 class="text-danger">Performances de conception d'ingénierie de communication typiques Congo(RDC)✅</h3>
+        <div class="position">
+            <h4 class="section-title text-muted2">
+            <p>🔑Propriétaire: SCPT Contractant: CITCC</p> 
+            <p>🏙Place: Sud-est RDC</p>
+            <p>🕔Durée: 2014.2-2017.10
+            </p>
+            <p> <span class="couleurbleu">CONTENU DE CONCEPTION :</span>Technique pour la construction de câble optiques nationales
+                 3300km et de sur la dorsale nationale et de la salle de communication.
+            </p></h4>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <img src="images/ref9.png" class="card-img-top" alt="Énergie Solaire">
+                    <div class="card-body">
+                        <h5 class="card-title">Travaux de la pose des câbles optiques nationales 3300km</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <img src="images/ref10.png" class="card-img-top" alt="Énergie Éolienne">
+                    <div class="card-body">
+                        <h5 class="card-title">câble optiques nationales</h5>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+</div>
+<!--fin realisation 5-->
+
             <p>Les énergies renouvelables, telles que l'énergie solaire, éolienne, hydraulique et biomasse, offrent des avantages considérables qui peuvent aider à résoudre les problèmes associés aux énergies non renouvelables :</p>
             <ul class="list-unstyled" >
-                <li class="text-white competence-box bg-success rounded" ><strong>Durabilité :</strong> Les énergies renouvelables sont inépuisables sur l'échelle de temps humaine. Par exemple, le soleil et le vent continueront de fournir de l'énergie tant que la Terre existera.</li>
-                <li class="text-white competence-box bg-info rounded lead"><strong>Réduction des Émissions :</strong> Les énergies renouvelables génèrent peu ou pas d'émissions de gaz à effet de serre pendant leur exploitation, contribuant ainsi à atténuer le changement climatique.</li>
-                <li class="text-white competence-box bg-secondary rounded"><strong>Indépendance Énergétique :</strong> Les énergies renouvelables peuvent réduire la dépendance aux importations de combustibles fossiles, renforçant ainsi la sécurité énergétique</li>
+                <li class="text-white competence-box bg-success rounded my-3 px-3" ><strong>Durabilité :</strong> Les énergies renouvelables sont inépuisables sur l'échelle de temps humaine. Par exemple, le soleil et le vent continueront de fournir de l'énergie tant que la Terre existera.</li>
+                <li class="text-white competence-box bg-info rounded lead my-3 px-3"><strong>Réduction des Émissions :</strong> Les énergies renouvelables génèrent peu ou pas d'émissions de gaz à effet de serre pendant leur exploitation, contribuant ainsi à atténuer le changement climatique.</li>
+                <li class="text-white competence-box bg-secondary rounded px-3"><strong>Indépendance Énergétique :</strong> Les énergies renouvelables peuvent réduire la dépendance aux importations de combustibles fossiles, renforçant ainsi la sécurité énergétique</li>
             </ul>
             <div class="text-center mt-4">
                 <a href="#solutions" class="btn btn-lg btn-secondary">Découvrez nos solutions</a>
             </div>
         </div>
     </section>
-
-    <!-- Solutions Section -->
-    <section id="solutions" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Solutions et améliorations</h2>
-            <p>Pour surmonter ces défis, il est essentiel d'investir dans l'innovation technologique, de mettre en place des politiques
-                incitatives, et de sensibiliser le public à l'importance des énergies renouvelables.</p>
-            <div class="row">
-                <div class="col-md-6">
-                    <h4>Innovations technologiques</h4>
-                    <p>Les progrès dans le stockage de l'énergie, tels que les batteries lithium-ion et les systèmes de stockage thermique,
-                        offrent des solutions pour gérer l'intermittence des sources renouvelables.</p>
-                    <ul>
-                        <li>Technologies de stockage avancées</li>
-                        <li>Smart grids et gestion de l'énergie</li>
-                        <li>Intégration des énergies renouvelables</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h4>Initiatives gouvernementales</h4>
-                    <p>Les gouvernements du monde entier prennent des mesures pour soutenir les énergies renouvelables par le biais de
-                        subventions, de crédits d'impôt et de réglementations favorables.</p>
-                    <ul>
-                        <li>Subventions pour les installations renouvelables</li>
-                        <li>Politiques de réduction des émissions de carbone</li>
-                        <li>Soutien à la recherche et au développement</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Compétences Section -->
     <section id="competences" class="bg-light py-5" style="background-image: url('images/energy6.jpg');background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover;">
         <div class="container">
             <h2 class="text-center mb-4">Nos compétences</h2>
-            <p class="competence-box bg-white rounded" >Notre équipe est composée d'experts dans le domaine des énergies renouvelables. Nous avons travaillé sur divers projets allant de
+            <p class="competence-box bg-white rounded px-3" >Notre équipe est composée d'experts dans le domaine des énergies renouvelables. Nous avons travaillé sur divers projets allant de
                 l'installation de panneaux solaires à la conception de parcs éoliens. Notre expérience nous permet de fournir des solutions sur
                 mesure adaptées aux besoins de nos clients.</p>
             <div class="row">
